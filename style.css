@@ -318,13 +318,11 @@ span:hover{
         border-bottom:1px solid rgb(8, 8, 8);
     }
 /*media */
-@media (max-width: 800px) {
+@media (max-width: 500px) {
     .navbar{
             position: static;
-        justify-content: center;
+            justify-content: center;
             flex-direction: column;
     }
    
-    nav>ul>li{
-        display: block;
-    }    
+   
